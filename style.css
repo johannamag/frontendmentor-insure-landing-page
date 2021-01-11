@@ -7,3 +7,15 @@
   --gray-violet: hsl(273, 4%, 51%);
   --gray: hsl(0, 0%, 98%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
