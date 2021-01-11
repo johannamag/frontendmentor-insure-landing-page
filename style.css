@@ -224,3 +224,34 @@ body {
   color: var(--violet);
   background-color: #fff;
 }
+
+.dark {
+  background-color: var(--gray-violet);
+}
+
+.heading-dark {
+  color: var(--dark-violet);
+  margin-bottom: 70px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.reasons-icon {
+  margin-bottom: 40px;
+}
+
+.reasons-title {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 1.5rem;
+  color: var(--dark-violet);
+  margin-bottom: 20px;
+}
+
+.reasons-desc {
+  line-height: 24px;
+  color: var(--gray-violet);
+}
