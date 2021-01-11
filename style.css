@@ -210,13 +210,14 @@ body {
   margin-bottom: 30px;
 }
 
-.hero-left > .btn {
+.btn {
   color: #fff;
   text-transform: uppercase;
   padding: 10px 20px;
   border: 1px solid #fff;
   background-color: var(--violet);
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.4s ease-in-out;
 }
 
@@ -254,4 +255,47 @@ body {
 .reasons-desc {
   line-height: 24px;
   color: var(--gray-violet);
+}
+
+.works {
+  background: var(--violet);
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-image: url("./media/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.box-heading {
+  font-size: 3rem;
+  line-height: 40px;
+  width: 40%;
+  font-weight: lighter;
+}
+
+.box-btn {
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.attribution > a {
+  text-decoration: none;
+  color: var(--violet);
+  transition: all 0.4s ease-in-out;
+}
+
+.attribution > a:hover {
+  color: var(--blue);
 }
