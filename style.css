@@ -398,6 +398,27 @@ body {
   color: var(--blue);
 }
 
+@media screen and (max-width: 731px) {
+  .box-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .box {
+    flex-direction: column;
+    background-image: url("./media/bg-pattern-how-we-work-mobile.svg");
+  }
+  .box-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .box-btn {
+    margin: 0 auto;
+  }
+}
+
 /* FOOTER */
 
 .footer {
